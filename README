@@ -1,0 +1,9 @@
+Run these commands every time your models change:
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+for database
+user: postgres
+pass: postgres
+CREATE DATABASE "canteen";
+
